@@ -1,0 +1,35 @@
+body{
+margin: 0; display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;background-color: white;
+}
+#container{
+    font-family: Arial, sans-serif;
+    background-color: rgb(13, 122, 99);
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+}
+.container.h1{
+   justify-content: center;
+}
+#Ans{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; padding: 25px;
+}
+#contral{
+    width: 100%;
+    padding: 20px;border: none;
+    font-size: 5rem;color: black;background-color: rgb(20, 145, 134);
+   text-align: left;
+}
+button{
+    width: 100%;height: 100%;
+    border-radius: 50px;border: none;
+    background-color: gray;color:white;
+    font-size: 3rem;
+    font-weight: 3rem;
+    cursor: pointer;
+}
